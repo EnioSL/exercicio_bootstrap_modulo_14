@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">TopBody Gym</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-academia" class="nav-link">
+                            <i class="bi bi-person-arms-up me-1"></i>
+                            Sobre a academia
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#espaco-zen" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Espaço zen
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-a-academia">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpg" class="d-block w-100" alt="Foto do espaço interno da academia">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" class="d-block w-100" alt="Foto mulher levantando peso">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" class="d-block w-100" alt="Foto aluno se exercitando">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/woman.jpeg" class="d-block w-100 rounded" alt="Foto do espaço interno da academia">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre <span class="text-colored">a academia</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae hic qui eum eligendi modi accusamus nihil, a, iure quam sint dolore enim dolorem molestiae saepe quisquam. Accusantium eveniet ex obcaecati.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">nossos profissionais</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi id odio corrupti recusandae assumenda unde ipsam numquam optio quibusdam dolore voluptatibus nam vitae officia illo, molestiae voluptates maiores quis debitis.
+                            </p>
+                            <ul>
+                                <li>Nutricionistas</li>
+                                <li>Professores</li>
+                                <li>Médicos de plantão</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossos <span class="text-colored">eventos</span></h2>
+                </div>            
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/conference_day.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-rulers"></i>    
+                            Conference day
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tempore neque deserunt architecto at totam vero explicabo consectetur fugiat unde minus iure dolorem voluptate minima, tenetur excepturi! Quas, excepturi perspiciatis?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/fitness-supplements-laf-featured.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-cup-straw"></i>
+                            Apresentação de suplementos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tempore neque deserunt architecto at totam vero explicabo consectetur fugiat unde minus iure dolorem voluptate minima, tenetur excepturi! Quas, excepturi perspiciatis?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/outside_events.jpeg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-walking"></i>
+                            Trilhas e eventos externos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tempore neque deserunt architecto at totam vero explicabo consectetur fugiat unde minus iure dolorem voluptate minima, tenetur excepturi! Quas, excepturi perspiciatis?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="espaco-zen" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">espaço zen</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-zen">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#massagem" class="fw-bold text-start nav-link text-colored active">Massagem</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#lanchonete" class="fw-bold text-start nav-link text-colored">Lanchonete</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#poltronas-relaxar" class="fw-bold text-start nav-link text-colored">Poltronas para relaxar</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sala-yoga" class="fw-bold text-start nav-link text-colored">Sala de yoga</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#recreacao" class="fw-bold text-start nav-link text-colored">Recreação</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="massagem">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/massagem/massagem_1.jpeg" alt="Massagem temporal" />
+                                        <h5 class="text-colored fw-bold mt-2">Massagem relaxante</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/massagem/massagem_2.jpeg" alt="Massagem costas" />
+                                        <h5 class="text-colored fw-bold">Massagem costas</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/massagem/massagem_3.jpeg" alt="Massagem cervical" />
+                                        <h5 class="text-colored fw-bold mt-2">Massagem cervical</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/massagem/massagem_4.jpeg" alt="Massagem thailandesa" />
+                                        <h5 class="text-colored fw-bold mt-2">Thai Massage nível I</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/massagem/massagem_5.jpeg" alt="Massagem thailandesa avançada" />
+                                        <h5 class="text-colored fw-bold mt-2">Thai Massage nível II</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/massagem/massagem_6.jpeg" alt="Massagem para os ombros" />
+                                        <h5 class="text-colored fw-bold mt-2">Massagem dos ombros</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="lanchonete">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/Lanchonete/Natural-Roast-Beef-Sandwich.jpg" alt="Sanduiche de Roast Beef" />
+                                        <h5 class="text-colored fw-bold mt-2">Sanduiche de Roast Beef</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/Lanchonete/natural-sandwish.jpeg" alt="Sanduiche natural" />
+                                        <h5 class="text-colored fw-bold">Sanduiche natural</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/Lanchonete/soy-bacon-natural.jpg" alt="Sanduiche natural com bacon de soja" />
+                                        <h5 class="text-colored fw-bold">Sanduiche natural com bacon de soja</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/Lanchonete/suco.jpg" alt="Suco de laranja" />
+                                        <h5 class="text-colored fw-bold">Suco de laranja</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/Lanchonete/tuna-salad-sandwish.jpeg" alt="Sanduiche de atum" />
+                                        <h5 class="text-colored fw-bold">Sanduiche de atum</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/Lanchonete/coca-cola.jpg" alt="Coca-cola zero" />
+                                        <h5 class="text-colored fw-bold">Coca-Cola Zero</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="poltronas-relaxar">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/poltronas/poltrona_1.jpg" alt="Poltrona 1" />
+                                        <h5 class="text-colored fw-bold mt-2">Poltrona 1</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/poltronas/poltrona_2.jpg" alt="Poltrona 2" />
+                                        <h5 class="text-colored fw-bold mt-2">Poltrona 2</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/poltronas/poltrona_3.jpg" alt="Poltrona 3" />
+                                        <h5 class="text-colored fw-bold mt-2">Poltrona 3</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/poltronas/poltrona_4.jpg" alt="Poltrona 4" />
+                                        <h5 class="text-colored fw-bold mt-2">Poltrona 4</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sala-yoga">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/yoga/yoga_1.jpg" alt="Desenho pessoas praticando yoga" />
+                                        <h5 class="text-colored fw-bold mt-2">Yoga para iniciantes</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/yoga/yoga_2.jpeg" alt="Mulher praticando yoga" />
+                                        <h5 class="text-colored fw-bold mt-2">Yoga nível II</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/yoga/yoga_3.jpeg" alt="Pessoas praticando yoga" />
+                                        <h5 class="text-colored fw-bold mt-2">Yoga nível III</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/yoga/yoga_4.jpg" alt="Mulher praticando yoga" />
+                                        <h5 class="text-colored fw-bold mt-2">Yoga nível IV</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/yoga/yoga_5.jpeg" alt="Mulher praticando alongamento na yoga" />
+                                        <h5 class="text-colored fw-bold mt-2">Yoga nível V</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/yoga/yoga_6.jpg" alt="Mulher praticando alongamento na yoga" />
+                                        <h5 class="text-colored fw-bold mt-2">Yoga avançado</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="recreacao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/recreacao/jogo_1.jpg" alt="Mesa de pebolim" />
+                                        <h5 class="text-colored fw-bold mt-2">Pebolim</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/recreacao/jogo_2.jpg" alt="Jogos de tabuleiro" />
+                                        <h5 class="text-colored fw-bold mt-2">Jogos de tabuleiro</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/espaco_zen/recreacao/jogo_3.jpg" alt="Mesa de Sinuca" />
+                                        <h5 class="text-colored fw-bold mt-2">Sinuca</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>    
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo, no. 145, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
